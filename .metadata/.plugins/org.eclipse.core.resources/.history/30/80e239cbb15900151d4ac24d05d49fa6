@@ -1,0 +1,7 @@
+
+public class WordGenerator {\
+	String filename;
+	public void WordGenerator(String filename) {
+		
+	}
+}

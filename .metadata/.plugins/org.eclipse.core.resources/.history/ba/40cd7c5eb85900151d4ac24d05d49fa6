@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class WordGeneratorTest {
+
+	@Test
+	public void test() {
+		WordGenerator wordGen = new WordGenerator("WGtestfile.txt");
+		fail("Not yet implemented");
+	}
+
+}

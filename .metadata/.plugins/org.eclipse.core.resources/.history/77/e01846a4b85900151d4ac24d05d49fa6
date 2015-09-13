@@ -1,0 +1,16 @@
+import static org.junit.Assert.*;
+
+import java.io.IOException;
+
+import org.junit.Test;
+
+
+public class WordGeneratorTest {
+
+	@Test
+	public void testGenerator() throws IOException {
+		WordGenerator wg = new WordGenerator("WGtestfile.txt");
+		assertEquals("wor")
+	}
+
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.io.File;
+import java.io.IOException;
+
+public class WordGenerator {
+	private String filename;
+	private Scanner s;
+	
+	public WordGenerator(String filename) {
+		this.filename = filename;
+	}
+	
+	
+}

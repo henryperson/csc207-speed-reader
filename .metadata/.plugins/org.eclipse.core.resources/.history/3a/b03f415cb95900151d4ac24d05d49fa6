@@ -1,0 +1,28 @@
+import static org.junit.Assert.*;
+
+import java.io.IOException;
+
+import org.junit.Test;
+
+
+public class WordGeneratorTest {
+
+	@Test
+	public void testGetWordCount() throws IOException {
+		WordGenerator wg = new WordGenerator("WGtestfile.txt");
+		assertEquals("wg.getWordCount = 0", 0, wg.getWordCount());
+		for (int i = 1; wg.hasNext(); i++) {
+			wg.next();
+			
+		}
+		
+		wg.next();
+		wg.next();
+		assertEquals("wg.getWordCount = 2", 2, wg.getWordCount());
+		while (wg.hasNext()) {
+			wg.next();
+		}
+		assertEquals("wg.getWordCount = 2", 2, wg.getWordCount());
+	}
+
+}
