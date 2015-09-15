@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="20" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
-<window height="921" width="1253" x="239" y="60">
+<window height="918" width="1249" x="204" y="83">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -30,48 +30,35 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordGenerator.java" partName="WordGenerator.java" path="/home/fisherhe/csc207/csc207-speed-reader/SpeedReader/src/WordGenerator.java" title="WordGenerator.java" tooltip="SpeedReader/src/WordGenerator.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SpeedReader/src/WordGenerator.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="129" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WordGeneratorTest.java" partName="WordGeneratorTest.java" path="/home/fisherhe/csc207/csc207-speed-reader/SpeedReader/src/WordGeneratorTest.java" title="WordGeneratorTest.java" tooltip="SpeedReader/src/WordGeneratorTest.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SpeedReader/src/WordGeneratorTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="203" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SpeedReader.java" partName="SpeedReader.java" path="/home/fisherhe/csc207/csc207-speed-reader/SpeedReader/src/SpeedReader.java" title="SpeedReader.java" tooltip="SpeedReader/src/SpeedReader.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SpeedReader/src/SpeedReader.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1170" selectionTopPixel="70"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" partName="DrawingPanel.java" path="/home/fisherhe/csc207/csc207-speed-reader/SpeedReader/src/DrawingPanel.java" title="DrawingPanel.java" tooltip="SpeedReader/src/DrawingPanel.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SpeedReader/src/DrawingPanel.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1114" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Testing1.java" partName="Testing1.java" path="/home/fisherhe/csc207/testing/src/Testing1.java" title="Testing1.java" tooltip="Testing/src/Testing1.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Testing/src/Testing1.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="230" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
 <filters>
 <filter element=".*" isEnabled="false"/>
 <filter element="*.class" isEnabled="false"/>
 </filters>
+<expanded>
+<element path="/Testing"/>
+<element path="/Testing/src"/>
+</expanded>
 <selection>
-<element path="/SpeedReader"/>
+<element path="/Testing/src/Testing1.java"/>
 </selection>
 </viewState>
 </view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
@@ -98,11 +85,6 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Warnings"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="162" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="470"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -170,43 +152,30 @@
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.TaskList"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="topLeft">
-<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@42cc13a0" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@42cc13a0" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="topLeft">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25940594" ratioLeft="262" ratioRight="748" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottomRight" ratio="0.6594761" ratioLeft="428" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<info folder="true" part="bottomRight" ratio="0.6594761" ratioLeft="428" ratioRight="221" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.TaskList" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.team.ui.GenericHistoryView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottomLeft" ratio="0.49922958" ratioLeft="324" ratioRight="325" relationship="4" relative="topLeft">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="bottomLeft" ratio="0.49922958" ratioLeft="324" ratioRight="325" relationship="4" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -260,9 +229,9 @@
 <new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
 <view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
@@ -332,79 +301,13 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/WordGeneratorTest.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/SpeedReader.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/DrawingPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/WordGenerator.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/WordGeneratorTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/WordGeneratorTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/SpeedReader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/SpeedReader/src/DrawingPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Testing/src/Testing1.java"/>
 </editors>
-<item historyLabel="SpeedReader.java" index="2">
-<position/>
-</item>
-<item historyLabel="SpeedReader.java" index="2">
-<position info="not_deleted" x="1291" y="0"/>
-</item>
-<item historyLabel="SpeedReader.java" index="2">
-<position/>
-</item>
-<item historyLabel="SpeedReader.java" index="2">
-<position info="not_deleted" x="1294" y="0"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGenerator.java" index="0">
-<position info="not_deleted" x="547" y="0"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="SpeedReader.java" index="2">
-<position info="not_deleted" x="619" y="0"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position info="not_deleted" x="188" y="0"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position info="not_deleted" x="204" y="35"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGenerator.java" index="0">
-<position info="not_deleted" x="624" y="0"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position info="not_deleted" x="643" y="0"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position info="not_deleted" x="423" y="0"/>
-</item>
-<item historyLabel="WordGenerator.java" index="0">
-<position info="not_deleted" x="129" y="0"/>
-</item>
-<item historyLabel="WordGeneratorTest.java" index="1">
-<position info="not_deleted" x="423" y="0"/>
-</item>
-<item historyLabel="SpeedReader.java" index="2">
-<position info="not_deleted" x="619" y="0"/>
-</item>
-<item historyLabel="SpeedReader.java" index="2">
-<position info="not_deleted" x="678" y="8"/>
-</item>
 <item historyLabel="SpeedReader.java" index="2">
 <position/>
 </item>
@@ -480,8 +383,80 @@
 <item historyLabel="SpeedReader.java" index="2">
 <position info="not_deleted" x="1275" y="0"/>
 </item>
-<item active="true" historyLabel="SpeedReader.java" index="2">
+<item historyLabel="SpeedReader.java" index="2">
 <position/>
+</item>
+<item historyLabel="SpeedReader.java" index="2">
+<position info="not_deleted" x="2468" y="0"/>
+</item>
+<item historyLabel="SpeedReader.java" index="2">
+<position info="not_deleted" x="2849" y="0"/>
+</item>
+<item historyLabel="SpeedReader.java" index="2">
+<position info="not_deleted" x="2845" y="0"/>
+</item>
+<item historyLabel="SpeedReader.java" index="2">
+<position info="not_deleted" x="2846" y="0"/>
+</item>
+<item historyLabel="WordGenerator.java" index="4">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="SpeedReader.java" index="2">
+<position info="not_deleted" x="294" y="0"/>
+</item>
+<item historyLabel="WordGenerator.java" index="4">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="WordGeneratorTest.java" index="5">
+<position info="not_deleted" x="203" y="0"/>
+</item>
+<item historyLabel="SpeedReader.java" index="2">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item historyLabel="WordGenerator.java" index="4">
+<position info="not_deleted" x="534" y="0"/>
+</item>
+<item historyLabel="WordGenerator.java" index="4">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="WordGeneratorTest.java" index="6">
+<position info="not_deleted" x="203" y="0"/>
+</item>
+<item historyLabel="WordGenerator.java" index="4">
+<position info="not_deleted" x="333" y="0"/>
+</item>
+<item historyLabel="WordGeneratorTest.java" index="6">
+<position info="not_deleted" x="203" y="0"/>
+</item>
+<item historyLabel="SpeedReader.java" index="7">
+<position info="not_deleted" x="69" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="8">
+<position info="not_deleted" x="4" y="0"/>
+</item>
+<item historyLabel="DrawingPanel.java" index="8">
+<position info="not_deleted" x="1114" y="0"/>
+</item>
+<item historyLabel="Testing1.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Testing1.java" index="9">
+<position info="not_deleted" x="263" y="0"/>
+</item>
+<item historyLabel="Testing1.java" index="9">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item historyLabel="Testing1.java" index="9">
+<position info="not_deleted" x="207" y="0"/>
+</item>
+<item historyLabel="Testing1.java" index="9">
+<position info="not_deleted" x="236" y="0"/>
+</item>
+<item historyLabel="Testing1.java" index="9">
+<position info="not_deleted" x="239" y="0"/>
+</item>
+<item active="true" historyLabel="Testing1.java" index="9">
+<position info="not_deleted" x="293" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -489,12 +464,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -502,11 +471,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Testing1.java" tooltip="Testing/src/Testing1.java">
+<persistable path="/Testing/src/Testing1.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawingPanel.java" tooltip="SpeedReader/src/DrawingPanel.java">
 <persistable path="/SpeedReader/src/DrawingPanel.java"/>
 </file>

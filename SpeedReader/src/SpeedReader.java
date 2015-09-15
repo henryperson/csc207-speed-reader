@@ -37,9 +37,11 @@ public class SpeedReader {
 		FontMetrics fm = g.getFontMetrics();
 	    while(wg.hasNext()) {
 	    	String word = wg.next();
+	    	g.setColor(Color.black);
 	        g.drawString(word, getWordX(word, fm, width), getWordY(fm, height));
 	        Thread.sleep(getMilliseconds(wpm));
-	        g.clearRect(0, 0, width, height);
+	        g.setColor(Color.white);
+	        g.fillRect(0, 0, width, height);
 	    }
 	}
 	
@@ -64,7 +66,6 @@ public class SpeedReader {
 		Graphics g = panel.getGraphics();
 		Font f = new Font("Courier", Font.BOLD, fontsize);
 		g.setFont(f);
-		g.setColor(Color.white);
 		return g;
 	}
 	
